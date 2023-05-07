@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Developed by
+          Developed by&nbsp;
           <code className={styles.code}>Toufiq Hasan Kiron</code>
         </p>
         <div>
