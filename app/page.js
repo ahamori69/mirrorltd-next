@@ -7,11 +7,17 @@ export default function Home() {
       <div className={styles.description}>
         <p>
           Developed by&nbsp;
+            <a
+            href="https://kiron.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
           <code className={styles.code}>Toufiq Hasan Kiron</code>
+          </a>
         </p>
         <div>
           <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="https://vercel.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
