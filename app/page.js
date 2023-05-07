@@ -8,7 +8,7 @@ export default function Home() {
       <div className={styles.description}>
         <p>
           Developed by&nbsp;
-          <code className={styles.code}><Link href="https://kiron.dev">Toufiq Hasan Kiron</Link></code>
+          <code className={styles.code}>Toufiq Hasan Kiron</code>
         </p>
         <div>
           <a
