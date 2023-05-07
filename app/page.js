@@ -1,19 +1,14 @@
 import Image from 'next/image'
+import Link from 'next/link';
 import styles from './page.module.css'
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p className={styles.dev}>
+        <p>
           Developed by&nbsp;
-            <a
-            href="https://kiron.dev"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-          <code className={styles.code}>Toufiq Hasan Kiron</code>
-          </a>
+          <code className={styles.code}><Link href="https://kiron.dev">Toufiq Hasan Kiron</Link></code>
         </p>
         <div>
           <a
