@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Developed by&nbsp;
+          Developed by
             <a
             href="https://kiron.dev"
             target="_blank"
