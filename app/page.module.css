@@ -25,6 +25,10 @@
   gap: 0.5rem;
 }
 
+.dev a {
+  padding: 0;
+}
+
 .description p {
   position: relative;
   margin: 0;
@@ -32,10 +36,6 @@
   background-color: rgba(var(--callout-rgb), 0.5);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
-}
-
-.dev a {
-  padding: 0;
 }
 
 .code {
